@@ -98,6 +98,112 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+body{
+ font-family: 'Nunito', sans-serif;
+ background: rgb(100,135,152);
+}
+
+.menu{
+	background: #cbccd4;
+	padding: 24px;
+	font-weight: 900;
+	text-align: center;
+	width: 120%;
+  margin-top: 20px
+}
+
+.menu ul{
+	list-style-type: none;
+}
+
+.menu ul li{
+	display: inline-block;
+	margin: 0 48px;
+}
+
+.mail{
+  width: 200px;
+  height: 150px;
+  background: url('../img/mail.png') no-repeat center center;
+  text-align: center;
+}
+
+.name{
+  width: 200px;
+  height: 150px;
+  background: url('../img/name.png') no-repeat center center;
+  text-align: center;
+}
+
+.about{
+  width: 650px;
+  height: 350px;
+  background: url('../img/about.png') no-repeat center center;
+  text-align: center;
+  margin-left: -150px;
+}
+
+.mail h3, .name h3{
+  font-size: 18px;
+  padding-top: 30%;
+}
+
+.about h3{
+  font-size: 18px;
+  padding-top: 20%;
+}
+
+.arrow-instagram{
+  width: 200px;
+  height: 150px;
+  background: url('../img/arrow-instagram.png') no-repeat center center;
+  text-align: center;
+}
+
+.arrow-instagram img{
+  padding-top: 60%;
+  padding-right: 10%;
+}
+
+.arrow-whatsapp{
+  width: 200px;
+  height: 150px;
+  background: url('../img/arrow-whatsapp.png') no-repeat center center;
+  text-align: center;
+}
+
+.arrow-whatsapp img{
+  padding-top: 60%;
+  padding-right: 10%;
+}
+
+.arrow-mail{
+  width: 200px;
+  height: 150px;
+  background: url('../img/arrow-mail.png') no-repeat center center;
+  text-align: center;
+}
+
+.arrow-mail img{
+  padding-top: 60%;
+  padding-right: 10%;
+}
+
+.social{
+  list-style-type: none;
+  text-align: center;
+  padding-right: 84px;
+}
+
+.social li{
+  display: inline-block;
+}
+
+.social li img{
+  width: 60%;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
